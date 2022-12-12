@@ -1,0 +1,38 @@
+.page-benefits__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.features {
+    flex-basis: calc((100% - 90px) / 4);
+
+    &__item {
+            display: flex;
+            margin-bottom: 30px;
+            justify-content: center;
+    
+            height: 120px;
+            align-items: center;
+            background-color: $button-background-color;
+        }
+   
+    &__title {
+            margin-top: 0;
+            margin-bottom: 10px;
+            color: $title-text-color;
+    
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 1.14;
+            text-transform: uppercase;
+        }
+    
+     &__text {
+            margin: 0;
+            font-size: 14px;
+            line-height: 1.71;
+        }
+}
+
+
