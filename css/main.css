@@ -11,6 +11,10 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 p,
 h1,
 h2,
@@ -475,6 +479,7 @@ summary {
   padding-right: 32px;
   padding-bottom: 10px;
   padding-left: 32px;
+  margin-top: 30px;
   color: #ffffff;
   background-color: #2196f3;
   cursor: pointer;
@@ -755,7 +760,7 @@ summary {
 
 .footer__adress {
   display: block;
-  padding-top: 20px;
+  margin-top: 20px;
   color: #ffffff;
 }
 
@@ -1239,6 +1244,7 @@ textarea {
   display: block;
   font-size: 12px;
   line-height: 1.67;
+  height: 14px;
   color: #757575;
 }
 
@@ -1353,7 +1359,6 @@ textarea {
           justify-content: center;
   margin: 0 auto;
   margin-top: 30px;
-  margin-bottom: 0;
   color: #ffffff;
   background-color: #2196f3;
   cursor: pointer;
