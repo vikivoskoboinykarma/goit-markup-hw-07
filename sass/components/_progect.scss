@@ -1,7 +1,7 @@
 .progect {
     display: flex;
     flex-wrap: wrap;
-    flex-wrap: 30px;
+    gap: 30px 30px;
     justify-content: space-between;
     align-items: center;
 }
@@ -22,6 +22,8 @@
 .progect__link {
     display: block;
     text-decoration: none;
+    transition: box-shadow 250ms $timing-funktion;
+            
 
     &:hover {
             box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),

@@ -52,7 +52,17 @@
     color: $primary-color;
 }
 
-.actions__link {
+.action {
+    display: flex;
+    padding-bottom: 30px;
+    margin-top: 16px;
+    gap: 10px;
+    list-style: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.action__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,14 +77,20 @@
     background-color: $icon-backgraund-color;
     transition: color 250ms $timing-funktion,
         background-color 250ms $timing-funktion;
+
+        &:hover,
+            &:focus {
+                color: $primary-color;
+                background-color: $accent-color;
+            }
 }
 
-.actions__icon {
-    fill: currentColor;
+.action__icon {
+    fill: $primary-color;
 
     &:hover, &:focus {
-            color: $primary-color;
-            background-color: $accent-color;
+            fill: $primary-color;
+         
         }
 }
 

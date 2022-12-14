@@ -69,16 +69,25 @@
     transition: color 250ms $timing-funktion,
         background-color 250ms $timing-funktion;
 
-        &:hover, &:focus {
+        &:hover ,
+         &:focus  {
                 color: $primary-color;
                 background-color: $accent-color;
             }
 }
 
 .actions__icon {
-    color: $icon-color;
+    fill: $icon-color;
     width: 20px;
     height: 20px;
+    transition: fill 250ms $timing-funktion,
+            background-color 250ms $timing-funktion;
+
+    .actions__link:hover &,
+    .actions__link:focus & {
+            fill: $primary-color;
+            background-color: $accent-color;
+        }
 }
 
 

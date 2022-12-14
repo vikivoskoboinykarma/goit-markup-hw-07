@@ -38,8 +38,8 @@
     width: 53%;
     height: 53%;
 
-    &:hover,
-    &:focus {
+    .clients__link:hover &,
+    .clients__link:focus & {
         fill: $accent-color;
     }
 }

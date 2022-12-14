@@ -27,6 +27,7 @@
     letter-spacing: 0.03em;
     border-radius: 4px;
     transition: color 250ms $timing-funktion,
+    box-shadow 250ms $timing-funktion,
         background-color 250ms $timing-funktion;
 
     &:hover,  &:focus {
